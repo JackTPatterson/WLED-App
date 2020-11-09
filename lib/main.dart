@@ -28,8 +28,8 @@ class MyApp extends StatelessWidget {
           // This makes the visual density adapt to the platform that you run
           // the app on. For desktop platforms, the controls will be smaller and
           // closer together (more dense) than on mobile platforms.
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-          canvasColor: Colors.black),
+          visualDensity: VisualDensity.adaptivePlatformDensity),
+      color: Color(0xfff1f3f6),
       home: MyHomePage(),
     );
   }
